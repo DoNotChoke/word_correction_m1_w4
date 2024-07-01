@@ -7,6 +7,7 @@ This repository contains a simple Streamlit application. Follow the instructions
 
 ## Installation
 * 1. Clone the repository: *
+  ''' sh
   git clone https://github.com/DoNotChoke/word_correction_m1_w4.git
-  pip install streamlit
-  streamlit hello (use this line of code to verify your download)
+  '''
+  
