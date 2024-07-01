@@ -13,29 +13,21 @@ This repository contains a simple Streamlit application. Follow the instructions
 
     ```sh
     git clone https://github.com/yourusername/streamlit-app.git
-    cd streamlit-app
     ```
 
-2. Create a virtual environment (optional but recommended):
+2. Create a virtual environment using conda (optional but recommended):
 
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    !conda create --name streamlit_env
+    !conda activate streamlit_env
     ```
 
-3. Install the required packages:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-    If you don't have a `requirements.txt` file, you can create one with the necessary packages:
+3. Install streamlit:
 
     ```sh
     pip install streamlit
-    pip freeze > requirements.txt
+    streamlit hello (use this line of code to verify your download)
     ```
-
 ## Usage
 
 1. Run the Streamlit application:
@@ -47,14 +39,4 @@ This repository contains a simple Streamlit application. Follow the instructions
 2. Open your web browser and go to `http://localhost:8501` to view the application.
 
 ## Project Structure
-
 - `app.py`: The main Python file containing the Streamlit application code.
-- `requirements.txt`: A file listing all the required Python packages.
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
